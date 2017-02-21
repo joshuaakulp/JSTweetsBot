@@ -15,7 +15,9 @@ var retweet = function() {
     lang: 'en'
   }
   // for more parameters, see: https://dev.twitter.com/rest/reference/get/search/tweets
+  console.log("I'm not crashing :)");
 
+/*
   Twitter.get('search/tweets', params, function(err, data) {
     // if there are no errors
     if (!err) {
@@ -38,6 +40,7 @@ var retweet = function() {
       console.log('Something went wrong while SEARCHING...');
     }
   });
+*/  
 }
 
 // grab and retweet as soon as program is running
