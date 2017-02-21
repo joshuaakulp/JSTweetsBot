@@ -20,7 +20,6 @@ var retweet = function() {
     // if there are no errors
     if (!err) {
       // grab ID of tweet to retweet
-      console.log(data.statuses);
       var retweetId = data.statuses[0].id_str;
         // Tell TWITTER to retweet
         Twitter.post('statuses/retweet/:id', {
