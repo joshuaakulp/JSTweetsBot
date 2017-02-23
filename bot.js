@@ -1,20 +1,4 @@
 
-var retweet = function() {
-  console.log("1");
-  console.log("2");
-  console.log("3");
-  console.log("4");
-  console.log("5");
-  console.log("6");
-  console.log("7");
-  console.log("Is this thing on?");
-}
-retweet();
-setInterval(retweet, 60000);
-
-
-
-/*
 // Dependencies =================================
 var twit = require('twit');
 var config = require('./config.js');
@@ -61,4 +45,3 @@ var retweet = function() {
 retweet();
 // retweet every 50 minutes
 setInterval(retweet, 3000000);
-*/
