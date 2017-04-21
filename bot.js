@@ -43,5 +43,5 @@ var retweet = function() {
 
 // grab and retweet as soon as program is running
 retweet();
-// retweet every 50 minutes
-setInterval(retweet, 3000000);
+// retweet every 60 minutes
+setInterval(retweet, 3600000);
