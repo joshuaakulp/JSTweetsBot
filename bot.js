@@ -45,3 +45,14 @@ var retweet = function() {
 retweet();
 // retweet every 60 minutes
 setInterval(retweet, 3600000);
+
+Twitter.get('followers/ids', {
+  screen_name: 'JSTweetsBot',
+  count: 10
+}, (err, data, response) => {
+  if (err) {
+    console.log(err)
+  } else {
+    console.log(data)
+  }
+});
