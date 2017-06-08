@@ -47,7 +47,7 @@ retweet();
 setInterval(retweet, 3600000);
 
 Twitter.get('followers/list', {
-  screen_name: 'JSTweetsBot',
+  screen_name: 'oilyfitnessmama',
   count: 200
 }, (err, data, response) => {
   if (err) {
